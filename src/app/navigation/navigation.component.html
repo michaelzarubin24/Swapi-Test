@@ -1,0 +1,5 @@
+<section>
+  <nav *ngFor="let nav of getNavigation()">
+    <a [routerLink]="'/navigation/' + nav.url">{{ nav.name }}</a>
+  </nav>  
+</section>

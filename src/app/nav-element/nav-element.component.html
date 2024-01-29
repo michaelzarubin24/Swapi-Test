@@ -1,0 +1,6 @@
+<section *ngIf="swapiData">
+    <h2>{{ nav.name }} Details</h2>
+    <div *ngFor="let item of swapiData">      
+        <p>{{ item.name }}</p>
+    </div>
+  </section>
